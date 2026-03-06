@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Luther Cyber AI Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+</head>
+
+<body>
+
+<canvas id="grid"></canvas>
+
+<header>
+
+<h1 class="logo">LUTHER</h1>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+</nav>
+
+</header>
+
+
+<section id="about" class="card">
+
+<img src="avatar.png" class="avatar">
+
+<h2>Luther J.n Malau</h2>
+
+<p>Information Systems Student | FrontEnd Developer</p>
+
+<a href="cv.pdf" class="btn">Download CV</a>
+
+</section>
+
+
+<section id="skills" class="card">
+
+<h2>Skills</h2>
+
+<div class="skill">
+<p>JavaScript</p>
+<div class="bar"><div style="width:90%"></div></div>
+</div>
+
+<div class="skill">
+<p>Python</p>
+<div class="bar"><div style="width:75%"></div></div>
+</div>
+
+<div class="skill">
+<p>Flutter</p>
+<div class="bar"><div style="width:80%"></div></div>
+</div>
+
+</section>
+
+
+<section id="projects" class="card">
+
+<h2>Projects</h2>
+
+<div id="repo"></div>
+
+</section>
+
+
+<section class="card ai-box">
+
+<h2>AI Assistant</h2>
+
+<div id="chat"></div>
+
+<input id="userInput" placeholder="Ask something..." />
+
+<button onclick="send()">Send</button>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Luther Developer</p>
+
+</footer>
+
+<script src="script.js"></script>
+<script src="ai.js"></script>
+<script src="grid.js"></script>
+
+</body>
+
+</html>
